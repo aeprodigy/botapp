@@ -82,9 +82,13 @@ const FacebookConversations = () => {
           {message.bot_sender === 1 && (
             <div className="text-left mb-2">
               <div className="inline-block bg-gray-200 p-2 rounded-md">
-                <p className="text-xs font-bold text-gray-600">{message.sender_name}</p>
-                <p className="">{message.message_text}</p>
-                <p className="text-xs">{message.message_date}</p>
+                <p className="text-xs font-bold text-gray-600">
+                  {message.sender_name}
+                </p>
+                <p className="pt-2">{message.message_text}</p>
+                <p className="text-xs text-right text-gray-400 pt-2">
+                  {message.message_date}
+                </p>
               </div>
             </div>
           )}
