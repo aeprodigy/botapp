@@ -17,7 +17,7 @@ const Navbar = () => {
             ChatBuddy
           </a>
 
-          <GiTrackedRobot />
+          <GiTrackedRobot className="animate-pulse" />
         </div>
       </div>
 
@@ -56,7 +56,7 @@ const Navbar = () => {
             </li>
             <li>
               <a className="md:p-4 py-3 px-0 block" href="#">
-                Treatments
+                Chats
               </a>
             </li>
             <li>

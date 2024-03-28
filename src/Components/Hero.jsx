@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaFacebookF } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -8,7 +9,7 @@ const Hero = () => {
         Hi, this is Your Virtual
       </h2>
       <h3 className="text-center text-white text-4xl pt-2">Chat Buddy</h3>
-      
+
       <div className="flex justify-center items-center container mx-auto pt-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-2">
           {/**Cards */}
@@ -23,12 +24,14 @@ const Hero = () => {
               <p className="mt-2 text-white text-xl mb-3">
                 check the history of the facebook chat.
               </p>
-              <button
-                type="button"
-                class="px-3 py-2 text-xs font-medium text-center text-white bg-blue-200 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-400 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Check Chat
-              </button>
+              <Link to="/facebook">
+                <button
+                  type="button"
+                  className="px-3 py-2 text-xs font-medium text-center text-white bg-blue-200 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-400 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >
+                  Check Chat
+                </button>
+              </Link>
             </div>
           </div>
 
