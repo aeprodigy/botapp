@@ -3,6 +3,7 @@ import "./App.css";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 import Facebook from "./Components/facebook";
+import WhatsAppConversations from "./Components/WhatsApp";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/facebook" element={<Facebook />} />
+        <Route path="/whatsApp" element={<WhatsAppConversations />} />
       </Routes>
     </div>
   );
