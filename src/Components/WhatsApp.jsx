@@ -48,7 +48,7 @@ const WhatsAppConversations = () => {
         >
           {message.sender_name === "j" && (
             <div className="text-left mb-2">
-              <div className="inline-block bg-blue-500 text-white p-2 rounded-md">
+              <div className="inline-block bg-green-500 text-white p-2 rounded-md">
                 <p className="text-xs">{message.sender_name}</p>
                 <p className="">{message.message_text}</p>
                 <p className="text-xs">{message.message_date}</p>
