@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <div class="bg-gradient-to-r from-violet-200 to-pink-200 min-h-screen pt-8">
+    <div class="bg-black min-h-screen pt-8">
       <h2 className="text-center text-white text-2xl pt-4">
         Hi, this is Your Virtual
       </h2>
@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="flex justify-center items-center container mx-auto pt-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-2">
           {/**Cards */}
-          <div className="rounded-xl shadow-lg ">
+          <div className="rounded-xl shadow-lg border ">
             <div className="p-5 flex flex-col ">
               <div className="text-white text-7xl rounded-xl overflow-x-hidden text-center mt-3 flex justify-center">
                 <FaFacebookF />
@@ -35,7 +35,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="rounded-xl shadow-lg ">
+          <div className="rounded-xl shadow-lg border">
             <div className="p-5 flex flex-col ">
               <div className="text-white text-7xl rounded-xl overflow-x-hidden text-center mt-3 flex justify-center">
                 <FaFacebookF />
@@ -57,7 +57,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="rounded-xl shadow-lg ">
+          <div className="rounded-xl shadow-lg border">
             <div className="p-5 flex flex-col ">
               <div className="text-white text-7xl rounded-xl overflow-x-hidden text-center mt-3 flex justify-center">
                 <FaFacebookF />
