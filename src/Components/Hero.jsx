@@ -9,7 +9,7 @@ const Hero = () => {
       <h2 className="text-center text-white text-2xl pt-4">
         Hi, this is Your Virtual
       </h2>
-      <h3 className="text-center text-white text-4xl pt-2">Chat Buddy</h3>
+      <h3 className="text-center text-white text-4xl pt-2">Chat Buddy!</h3>
 
       <div className="flex justify-center items-center container mx-auto pt-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-2">
@@ -72,7 +72,7 @@ const Hero = () => {
               <Link to="/instagram">
                 <button
                   type="button"
-                  class="px-3 py-4 w-full text-xs font-medium text-center  bg-gray-100 rounded-md text-pink-400 text"
+                  class="px-3 py-4 w-full text-xs font-medium text-center  bg-gray-100 rounded-md text-pink-400 text-md"
                 >
                   Check Chat
                 </button>
