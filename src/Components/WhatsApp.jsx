@@ -1,7 +1,8 @@
 import React from "react";
+import { FaRobot } from "react-icons/fa6";
 
 const WhatsAppConversations = () => {
-  // Sample data for WhatsApp conversations
+  // an array of data from the messaging data
   const conversations = [
     {
       bot_sender: 0,
@@ -58,8 +59,8 @@ const WhatsAppConversations = () => {
           {message.bot_sender === 1 && (
             <div className="text-left mb-2">
               <div className="inline-block bg-gray-200 p-2 rounded-md">
-                <p className="text-xs font-bold text-gray-600">
-                  {message.sender_name}
+                <p className="text-xs font-bold text-gray-600 flex items-center">
+                  <FaRobot /> {message.sender_name}
                 </p>
                 <p className="pt-2">{message.message_text}</p>
                 <p className="text-xs text-right text-gray-400 pt-2">

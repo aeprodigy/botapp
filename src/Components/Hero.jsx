@@ -24,10 +24,10 @@ const Hero = () => {
               <p className="mt-2 text-white text-xl mb-3">
                 check the history of the facebook chat.
               </p>
-              <Link to="/facebook">
+              <Link to="/facebook" className="">
                 <button
                   type="button"
-                  className="px-3 py-2 text-xs font-medium text-center text-white bg-blue-200 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-400 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  className="w-full px-3 py-4 text-xs font-medium text-center text-white bg-blue-200 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-400 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                 >
                   Check Chat
                 </button>
@@ -35,7 +35,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="rounded-xl shadow-lg border">
+          <div className="rounded-xl shadow-lg  bg-green-400">
             <div className="p-5 flex flex-col ">
               <div className="text-white text-7xl rounded-xl overflow-x-hidden text-center mt-3 flex justify-center">
                 <FaFacebookF />
@@ -49,7 +49,7 @@ const Hero = () => {
               <Link to="/whatsApp">
                 <button
                   type="button"
-                  class="px-3 py-2 text-xs font-medium text-center text-white bg-blue-200 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-400 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  class="w-full px-3 py-4 text-xs font-medium text-center text-white bg-blue-200 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-400 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                 >
                   Check Chat
                 </button>
@@ -68,12 +68,14 @@ const Hero = () => {
               <p className="mt-2 text-white text-xl mb-3">
                 check the history of the facebook chat.
               </p>
-              <button
-                type="button"
-                class="px-3 py-2 text-xs font-medium text-center text-white bg-blue-200 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-400 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Check Chat
-              </button>
+              <Link to="/instagram">
+                <button
+                  type="button"
+                  class="px-3 py-4 w-full text-xs font-medium text-center text-white bg-blue-200 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-400 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >
+                  Check Chat
+                </button>
+              </Link>
             </div>
           </div>
           {/**Cards end here */}
