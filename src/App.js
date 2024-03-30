@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar";
 import Facebook from "./Components/facebook";
 import WhatsAppConversations from "./Components/WhatsApp";
 import Instagram from "./Components/Instagram";
+import About from "./Components/About";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/facebook" element={<Facebook />} />
         <Route path="/whatsApp" element={<WhatsAppConversations />} />
         <Route path="/instagram" element={<Instagram/>} />
+        <Route path="/about" element={<About/>}/>
 
       </Routes>
     </div>

@@ -1,10 +1,11 @@
 import React from 'react'
 import { FaFacebookF } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <div class="bg-black min-h-screen pt-8">
+    <div class="bg-gray-900 min-h-screen pt-8">
       <h2 className="text-center text-white text-2xl pt-4">
         Hi, this is Your Virtual
       </h2>
@@ -13,7 +14,7 @@ const Hero = () => {
       <div className="flex justify-center items-center container mx-auto pt-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-2">
           {/**Cards */}
-          <div className="rounded-xl shadow-lg border ">
+          <div className="rounded-xl shadow-lg bg-blue-400">
             <div className="p-5 flex flex-col ">
               <div className="text-white text-7xl rounded-xl overflow-x-hidden text-center mt-3 flex justify-center">
                 <FaFacebookF />
@@ -27,7 +28,7 @@ const Hero = () => {
               <Link to="/facebook" className="">
                 <button
                   type="button"
-                  className="w-full px-3 py-4 text-xs font-medium text-center text-white bg-blue-200 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-400 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  className="w-full px-3 py-4  font-medium text-center text-blue-400 text-md bg-gray-100 rounded-md"
                 >
                   Check Chat
                 </button>
@@ -38,7 +39,7 @@ const Hero = () => {
           <div className="rounded-xl shadow-lg  bg-green-400">
             <div className="p-5 flex flex-col ">
               <div className="text-white text-7xl rounded-xl overflow-x-hidden text-center mt-3 flex justify-center">
-                <FaFacebookF />
+                <FaWhatsapp />
               </div>
               <h5 className="pt-4 text-white font-medium text-center text-2xl md:text-3xl mt-3">
                 Check the WhatsApp chat
@@ -49,7 +50,7 @@ const Hero = () => {
               <Link to="/whatsApp">
                 <button
                   type="button"
-                  class="w-full px-3 py-4 text-xs font-medium text-center text-white bg-blue-200 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-400 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  class="w-full px-3 py-4 text-md font-medium text-center text-green-400 bg-gray-100 rounded-md"
                 >
                   Check Chat
                 </button>
@@ -57,10 +58,10 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="rounded-xl shadow-lg border">
+          <div className="rounded-xl shadow-lg bg-pink-400">
             <div className="p-5 flex flex-col ">
               <div className="text-white text-7xl rounded-xl overflow-x-hidden text-center mt-3 flex justify-center">
-                <FaFacebookF />
+                <FaInstagram />
               </div>
               <h5 className="pt-4 text-white font-medium text-center text-2xl md:text-3xl mt-3">
                 Check the Facebook chat
@@ -71,7 +72,7 @@ const Hero = () => {
               <Link to="/instagram">
                 <button
                   type="button"
-                  class="px-3 py-4 w-full text-xs font-medium text-center text-white bg-blue-200 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-400 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  class="px-3 py-4 w-full text-xs font-medium text-center  bg-gray-100 rounded-md text-pink-400 text"
                 >
                   Check Chat
                 </button>

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { GiTrackedRobot } from "react-icons/gi";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   // State to track the visibility of the menu
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -49,11 +50,13 @@ const Navbar = () => {
       >
         <nav>
           <ul className="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
-            <li>
-              <a className="md:p-4 py-3 px-0 block" href="#">
-                AboutUs
-              </a>
-            </li>
+            <Link to="/about">
+              <li>
+                <a className="md:p-4 py-3 px-0 block" href="#">
+                  AboutUs
+                </a>
+              </li>
+            </Link>
             <li>
               <a className="md:p-4 py-3 px-0 block" href="#">
                 Chats
