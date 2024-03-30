@@ -64,10 +64,10 @@ const Hero = () => {
                 <FaInstagram />
               </div>
               <h5 className="pt-4 text-white font-medium text-center text-2xl md:text-3xl mt-3">
-                Check the Facebook chat
+                Check the Instagram chat
               </h5>
               <p className="mt-2 text-white text-xl mb-3">
-                check the history of the facebook chat.
+                check the history of the Instagram chat.
               </p>
               <Link to="/instagram">
                 <button
