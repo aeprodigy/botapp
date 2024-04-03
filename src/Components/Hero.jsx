@@ -72,7 +72,7 @@ const Hero = () => {
               <Link to="/instagram">
                 <button
                   type="button"
-                  class="px-3 py-4 w-full text-xs font-medium text-center  bg-gray-100 rounded-md text-pink-400 text-md"
+                  class="px-3 py-4 w-full  font-medium text-center  bg-gray-100 rounded-md text-pink-400 text-md"
                 >
                   Check Chat
                 </button>
